@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.0 Build 156 04/24/2013 SJ Web Edition"
 
-// DATE "10/30/2015 15:38:16"
+// DATE "10/30/2015 22:37:06"
 
 // 
 // Device: Altera EP3C25Q240C8 Package PQFP240
@@ -1511,19 +1511,19 @@ wire \d|WideOr3~0_combout ;
 wire \d|WideOr2~0_combout ;
 wire \d|WideOr1~0_combout ;
 wire \d|WideOr0~0_combout ;
-wire [2:0] \d|scan_count ;
-wire [15:0] timer_state;
 wire [15:0] \t|o_time ;
-wire [31:0] \d|clk_50Hz_count ;
-wire [1:0] step;
-wire [5:0] state;
-wire [7:0] \d|seg ;
-wire [15:0] \t|temp_time ;
-wire [31:0] \t|clk_100Hz_count ;
-wire [3:0] \t|o_response ;
-wire [31:0] \d|clk_1Hz_count ;
 wire [3:0] \d|number ;
+wire [3:0] \t|o_response ;
+wire [1:0] step;
+wire [31:0] \d|clk_50Hz_count ;
+wire [15:0] timer_state;
+wire [2:0] \d|scan_count ;
 wire [3:0] \d|index ;
+wire [15:0] \t|temp_time ;
+wire [7:0] \d|seg ;
+wire [31:0] \d|clk_1Hz_count ;
+wire [31:0] \t|clk_100Hz_count ;
+wire [5:0] state;
 
 
 // Location: LCCOMB_X34_Y22_N6

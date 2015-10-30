@@ -1,5 +1,5 @@
 Flow report for wm
-Fri Oct 30 15:38:18 2015
+Fri Oct 30 22:37:08 2015
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Fri Oct 30 15:38:18 2015      ;
+; Flow Status                        ; Successful - Fri Oct 30 22:37:08 2015      ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; wm                                         ;
 ; Top-level Entity Name              ; washingmachine_top                         ;
@@ -64,29 +64,32 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/30/2015 15:37:42 ;
+; Start date & time ; 10/30/2015 22:36:33 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; wm                  ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                            ;
-+-------------------------------------+---------------------------------+---------------+--------------------+----------------+
-; Assignment Name                     ; Value                           ; Default Value ; Entity Name        ; Section Id     ;
-+-------------------------------------+---------------------------------+---------------+--------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 103929058393800.144619066208896 ; --            ; --                 ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --                 ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --                 ; --             ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --                 ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --                 ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                            ; --            ; --                 ; --             ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; washingmachine_top ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; washingmachine_top ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; washingmachine_top ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --                 ; --             ;
-; TOP_LEVEL_ENTITY                    ; washingmachine_top              ; wm            ; --                 ; --             ;
-+-------------------------------------+---------------------------------+---------------+--------------------+----------------+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                  ;
++-------------------------------------+---------------------------------------+---------------+--------------------+----------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name        ; Section Id     ;
++-------------------------------------+---------------------------------------+---------------+--------------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 103929058393800.144621579307668       ; --            ; --                 ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                           ; --            ; --                 ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)             ; <None>        ; --                 ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --                 ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --                 ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                  ; --            ; --                 ; --             ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; washingmachine_top ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; washingmachine_top ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; washingmachine_top ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --                 ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --                 ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --                 ; --             ;
+; SMART_RECOMPILE                     ; On                                    ; Off           ; --                 ; --             ;
+; TOP_LEVEL_ENTITY                    ; washingmachine_top                    ; wm            ; --                 ; --             ;
++-------------------------------------+---------------------------------------+---------------+--------------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -94,12 +97,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:06     ; 1.0                     ; 478 MB              ; 00:00:06                           ;
-; Fitter                    ; 00:00:16     ; 1.0                     ; 712 MB              ; 00:00:16                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 422 MB              ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 470 MB              ; 00:00:05                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 388 MB              ; 00:00:03                           ;
-; Total                     ; 00:00:32     ; --                      ; --                  ; 00:00:32                           ;
+; Analysis & Synthesis      ; 00:00:06     ; 1.0                     ; 460 MB              ; 00:00:07                           ;
+; Fitter                    ; 00:00:17     ; 1.0                     ; 713 MB              ; 00:00:16                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 418 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 467 MB              ; 00:00:05                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 393 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:33     ; --                      ; --                  ; 00:00:32                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
